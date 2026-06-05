@@ -29,13 +29,14 @@ public class OpenApiConfig {
                                 - Sorting, pagination, and language statistics
                                 """)
                         .contact(new Contact()
-                                .name("Prashant")
-                                .email("prashant@example.com"))
+                                .name("Prashant Kumar")
+                                .email("kumarprashantshivam456@gmail.com"))
                         .license(new License()
                                 .name("MIT")))
                 .servers(List.of(
-                        new Server().url("http://localhost:8080")
-                                .description("Local development server")
+                        new Server()
+                                .url("https://github-repo-explorer-api-8sgt.onrender.com")
+                                .description("Production Server")
                 ));
     }
 }
